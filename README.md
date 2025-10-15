@@ -351,60 +351,6 @@ Identify recipe from dish image.
 }
 ```
 
-## 📁 Project Structure
-
-```
-smart-chef/
-├── public/
-│   ├── images/
-│   └── icons/
-├── src/
-│   ├── app/
-│   │   ├── api/
-│   │   │   ├── recipes/
-│   │   │   │   ├── match/route.js
-│   │   │   │   └── [id]/route.js
-│   │   │   └── recognize/
-│   │   │       ├── ingredients/route.js
-│   │   │       └── recipe/route.js
-│   │   ├── recipes/
-│   │   │   ├── page.js
-│   │   │   └── [id]/page.js
-│   │   ├── upload/
-│   │   │   └── page.js
-│   │   ├── layout.js
-│   │   └── page.js
-│   ├── components/
-│   │   ├── ImageUploader.jsx
-│   │   ├── RecipeCard.jsx
-│   │   ├── FilterPanel.jsx
-│   │   ├── NutritionDisplay.jsx
-│   │   └── IngredientList.jsx
-│   ├── lib/
-│   │   ├── mongodb.js
-│   │   ├── gemini.js
-│   │   └── recipeMatching.js
-│   ├── models/
-│   │   ├── Recipe.js
-│   │   ├── User.js
-│   │   └── Rating.js
-│   ├── utils/
-│   │   ├── imageProcessing.js
-│   │   ├── nutritionCalc.js
-│   │   └── validators.js
-│   └── config/
-│       ├── algorithm.js
-│       └── ai.js
-├── scripts/
-│   └── seed.js
-├── .env.local
-├── .gitignore
-├── next.config.js
-├── package.json
-├── tailwind.config.js
-└── README.md
-```
-
 ## 📊 Performance Metrics
 
 | Feature | Metric | Result |
