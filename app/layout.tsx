@@ -8,9 +8,9 @@ import "./globals.css"
 import { AppSessionProvider } from "@/components/session-provider"
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
-  generator: "v0.app",
+  title: "Smart Chef",
+  description: "Created by Shreya",
+ 
 }
 
 export default function RootLayout({
