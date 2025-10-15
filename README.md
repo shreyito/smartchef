@@ -56,7 +56,7 @@ An intelligent, AI-driven web application that recommends recipes based on ingre
 
 ## 🎬 Demo
 
-**Live Demo**: [https://smart-chef-app.vercel.app](https://smart-chef-app.vercel.app) *(Replace with actual URL)*
+**Live Demo**: [https://smartchef-theta.vercel.app/](https://smartchef-theta.vercel.app/)
 
 ### Quick Start Demo
 ```bash
